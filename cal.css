@@ -1,0 +1,36 @@
+body {
+    background-image: url('k3.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh;
+}
+
+#calculator {
+    background-color: #1ad74c /* Example color for the calculator background */
+    padding: 10px; /* Add some padding for better spacing */
+}
+
+button {
+    /* Default button styles */
+    background-color:hsl(313, 87%, 31%);
+    border: 1px solid hsl(0, 65%, 32%)c1c;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+button:hover,
+button:active {
+    /* Button styles on hover and when pressed */
+    background-color: lightblue;
+}
+}
+h2 {
+    text-color: blue;
+    width: 100%; /* Ensure the header takes up the full width */
+    margin-bottom: 50px;
+}
